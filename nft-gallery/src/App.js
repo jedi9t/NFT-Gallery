@@ -11,7 +11,9 @@ const simplifiedAbi = [
 ];
 
 // 这是一个公共的Alchemy API Key，建议换成你自己的
-const ALCHEMY_URL = process.env.REACT_APP_ALCHEMY_URL;;
+const ALCHEMY_URL_BASE = "https://eth-mainnet.g.alchemy.com/v2/";
+const ALCHEMY_API_KEY = process.env.REACT_APP_ALCHEMY_KEY;
+const ALCHEMY_URL = `${ALCHEMY_URL_BASE}${ALCHEMY_API_KEY}`;
 // 默认展示的BAYC合约地址
 const baycContractAddress = "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D";
 
@@ -29,15 +31,6 @@ function App() {
       // const provider = new ethers.providers.JsonRpcProvider(ALCHEMY_URL);
       // New Code (v6)
       const provider = new ethers.JsonRpcProvider(ALCHEMY_URL);
-
-      // 2. 创建一个合约实例，用于后续交互
-      const ALCHEMY_URL_BASE = "https://eth-mainnet.g.alchemy.com/v2/";
-      // 2.1 从环境变量中读取你的Key
-      const ALCHEMY_API_KEY = process.env.REACT_APP_ALCHEMY_KEY;
-      // 2.2 将它们安全地拼接成完整的URL
-      const ALCHEMY_URL = `${ALCHEMY_URL_BASE}${ALCHEMY_API_KEY}`;
-
-
       const contract = new ethers.Contract(baycContractAddress, simplifiedAbi, provider);
 
       // 3. 读取合约名称
