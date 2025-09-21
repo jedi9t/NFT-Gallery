@@ -59,7 +59,7 @@ Chain 选择 Ethereum，Network 选择 Mainnet。
 4. 点击页面上的“查询NFT”按钮，等待片刻，你就能看到无聊猿（BAYC）的前5个NFT图片和它们的名称了！
 ![alt text](resources/images/af133048ba7f7554d97789901076918a.png)
 
-## 注：环境变脸设置
+## 注：环境变量设置
 在 nft-gallery目录下建立一个.env文件
 增加如下代码：
 ```
