@@ -42,6 +42,7 @@ Alchemy: 我们将用它作为节点服务商，为我们的dApp提供稳定可�
 Chain 选择 Ethereum，Network 选择 Mainnet。
 
 创建成功后，点击 “VIEW KEY”，复制你的 HTTPS 地址。它看起来像 https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY。请妥善保管。
+![alt text](resources/images/cc1d683dbe77e69b2fb44084e70de2d5.png)
 
 ## 步骤 C: 编写核心代码
 打开项目文件夹中的 src/App.js 文件，编辑页面
