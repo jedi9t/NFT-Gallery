@@ -10,7 +10,7 @@
   <a href="https://zdoc.app/ko/jedi9t/NFT-Gallery">한국어</a> | 
   <a href="https://zdoc.app/pt/jedi9t/NFT-Gallery">Português</a> | 
   <a href="https://zdoc.app/ru/jedi9t/NFT-Gallery">Русский</a> | 
-  <a href="https://zdoc.app/en/jedi9t/NFT-Gallery">中文</a>
+  <a href="https://zdoc.app/en/jedi9t/NFT-Gallery">English</a>
 </div>
 # 技术栈与预备知识
 ## 预备知识:
