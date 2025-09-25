@@ -1,7 +1,17 @@
 # NFT-Gallery
 构建一个简单的NFT展示DApp (NFT Gallery)
 
-
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://zdoc.app/de/jedi9t/NFT-Gallery">Deutsch</a> | 
+  <a href="https://zdoc.app/es/jedi9t/NFT-Gallery">Español</a> | 
+  <a href="https://zdoc.app/fr/jedi9t/NFT-Gallery">Français</a> | 
+  <a href="https://zdoc.app/ja/jedi9t/NFT-Gallery">日本語</a> | 
+  <a href="https://zdoc.app/ko/jedi9t/NFT-Gallery">한국어</a> | 
+  <a href="https://zdoc.app/pt/jedi9t/NFT-Gallery">Português</a> | 
+  <a href="https://zdoc.app/ru/jedi9t/NFT-Gallery">Русский</a> | 
+  <a href="https://zdoc.app/en/jedi9t/NFT-Gallery">中文</a>
+</div>
 # 技术栈与预备知识
 ## 预备知识:
 
